@@ -1,2 +1,6 @@
 # SceneActorBreaker
-A UE plugin that resolves the hierarchy splitting when importing Blender USD files into UE levels.
+
+一个解决从DCC软件中使用UE-USDImporter导入关卡中产生一个带有父子级关系的场景Actor的插件。这个插件可以把这个场景Actor中的StaticMesh拆分出来并且保持原有变换。
+使用方法：安装后选择要拆分层级的Actor，然后点击在引擎上方工具条中的拆分按钮即可。
+
+ReadMe施工中...

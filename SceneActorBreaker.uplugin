@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SceneActorBreaker",
+	"Description": "",
+	"Category": "Editor",
+	"CreatedBy": "GT-TieGuan",
+	"CreatedByURL": "https://github.com/GT-TieGuan/SceneActorBreaker",
+	"DocsURL": "https://github.com/GT-TieGuan/SceneActorBreaker",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SceneActorBreaker",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
