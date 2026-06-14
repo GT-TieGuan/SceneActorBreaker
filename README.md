@@ -1,6 +1,10 @@
 # SceneActorBreaker
 SceneActorBreaker - Split USD / Datasmith / Interchange Scene Actors into Editable StaticMeshActors
 
+用于拆分 USD / Datasmith 导入后生成的 SceneActor，将其转换为独立 StaticMeshActor
+
+Unreal Engine’s USD Importer may still create a single SceneActor or parent Actor depending on the USD structure, Interchange pipeline, or import method. SceneActorBreaker is designed for this post-import case: it breaks the generated SceneActor/components into independent editable StaticMeshActors while preserving transforms and materials.
+
 本插件主要解决 DCC  软件 Blender 导出 usd 通过 UE-USDImporter 导入关卡时产生的场景Mesh层级嵌套结构问题。当导入的 USD 文件在 UE  中生成包含复杂父子级关系的场景 Actor 时，本插件能够将这些组合 Actor 中的各个 StaticMesh 组件拆分为独立的  Actor，同时完美保持原有的变换关系。
 
 ## 安装方法
